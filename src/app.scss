@@ -1,0 +1,36 @@
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+:root {
+    --primary: #2d97c9;
+    --heading-color: #282938;
+    --bg-shade: #f5fcff;
+    --github: #e62872;
+    --darkblue: #1c1e53;
+    --black: #000000;
+    --white: #ffffff;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM sans", sans-serif;
+}
+
+body{
+    // background-color: var(--primary);
+    background-color: #0c0c1d;
+    color: lightgrey;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: center;
+}
